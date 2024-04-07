@@ -4,21 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--Roboto&Raleway-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="./index.html">WebStudio</a>
-            <ul>
+            <a class="web-studio" href="./index.html">Web<span class="web-studio-2">Studio</span></a>
+            <ul class="nav-menu">
                 <li><a href="#">Studio</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#section-4">Portfolio</a></li>
                 <li><a href="#">Contacts</a></li>
             </ul>
         </nav>
         <address>
-            <ul>
+            <ul class="contacts-menu">
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
@@ -26,56 +33,91 @@
     </header>
     <main>
         <!-- First content block -->
-        <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+        <section id="section-1">
+            <div class="container">
+                <h1 id="effective-solution">Effective Solutions for Your Business</h1>
+                <button type="button">Order Service</button>
+            </div>
         </section>
         <!-- Second content block -->
-        <section>
-            <h2>Hello world</h2>
-            <ul>
-                <li>
-                    <h3>Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.
-                    </p>
-                </li>
-                <li>
-                    <h3>Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the
-                        shortest possible time.</p>
-                </li>
-                <li>
-                    <h3>Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth
-                        opportunities and minimize
-                        risk.</p>
-                </li>
-                <li>
-                    <h3>Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion
-                        for problem-solving.</p>
-                </li>
-            </ul>
+        <section id="section-2">
+            <div class="container">
+                <ul class="second-block">
+                    <li>
+                        <h3>Strategy</h3>
+                        <p>Our goal is to identify the business problem to walk away with the perfect and creative
+                            solution.
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Punctuality</h3>
+                        <p>Bring the key message to the brand's audience for the best price within the
+                            shortest possible time.</p>
+                    </li>
+                    <li>
+                        <h3>Diligence</h3>
+                        <p>Research and confirm brands that present the strongest digital growth
+                            opportunities and minimize
+                            risk.</p>
+                    </li>
+                    <li>
+                        <h3>Technologies</h3>
+                        <p>Design practice focused on digital experiences. We bring forth a deep passion
+                            for problem-solving.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!-- Our Team Block -->
-        <section>
-            <h2>Our Team</h2>
+        <section id="section-3">
+            <div class="container">
+                <h2>Our Team</h2>
+                <ul class="third-block">
+                    <li><img src="./images/mark.jpg" width="264" height="260" alt="Mark Guerrero">
+                        <h3>Mark Guerrero</h3>
+                        <p>Product Designer</p>
+                    </li>
+                    <li><img src="./images/tom.jpg" width="264" height="260" alt="Tom Ford">
+                        <h3>Tom Ford</h3>
+                        <p>Frontend Developer</p>
+                    </li>
+                    <li><img src="./images/camila.jpg" width="264" height="260" alt="Camila Garcia">
+                        <h3>Camila Garcia</h3>
+                        <p>Marketing</p>
+                    </li>
+                    <li><img src="./images/daniel.jpg" width="264" height="260" alt="Daniel Wilson">
+                        <h3>Daniel Wilson</h3>
+                        <p>UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="section-4">
+            <h2>Our Portfolio</h2>
             <ul>
-                <li><img src="./images/mark.jpg" width="264" height="260" alt="Mark Guerrero">
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Designer</p>
+                <li><img src="./images/banking_app.jpg" width="360" height="300" alt="Banking App">
+                    <h3>Banking App</h3>
+                    <p>App</p>
                 </li>
-                <li><img src="./images/tom.jpg" width="264" height="260" alt="Tom Ford">
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
-                </li>
-                <li><img src="./images/camila.jpg" width="264" height="260" alt="Camila Garcia">
-                    <h3>Camila Garcia</h3>
+                <li><img src="./images/cashless_payment.jpg" width="360" height="300" alt="Cashless Payment">
+                    <h3>Cashless Payment</h3>
                     <p>Marketing</p>
                 </li>
-                <li><img src="./images/daniel.jpg" width="264" height="260" alt="Daniel Wilson">
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                <li><img src="./images/meditation_app.jpg" width="360" height="300" alt="Meditation App">
+                    <h3>Meditation App</h3>
+                    <p>App</p>
+                </li>
+                <li><img src="./images/taxi_service.jpg" width="360" height="300" alt="Taxi Service">
+                    <h3>Taxi Service</h3>
+                    <p>Marketing</p>
+                </li>
+                <li><img src="./images/screen_illustrations.jpg" width="360" height="300" alt="Screen Illustrations">
+                    <h3>Screen Illustrations</h3>
+                    <p>Design</p>
+                </li>
+                <li><img src="./images/online_courses.jpg" width="360" height="300" alt="Online Courses">
+                    <h3>Online Courses</h3>
+                    <p>Marketing</p>
                 </li>
             </ul>
         </section>
