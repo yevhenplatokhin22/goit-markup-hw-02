@@ -49,6 +49,10 @@ color: #2e2f42;
 color: #404BBF; 
 }
 
+address {
+  font-style: normal; 
+}
+
 .address-list-item {
 font-weight: 400;
 font-size: 16px;
